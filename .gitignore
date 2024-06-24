@@ -1,0 +1,15 @@
+# .gitignore
+
+# Python
+_pycache_/
+*.pyc
+*.pyo
+.env
+
+# Django
+media/
+db.sqlite3
+
+# Node
+node_modules/
+.next/
