@@ -49,6 +49,12 @@ export default function Upload() {
         width={30}
         height={30}
       />
+      <Image
+        src="http://localhost:8000/media/images/photo_4969979131383098687_y.jpg"
+        alt=""
+        width={30}
+        height={30}
+      />
     </div>
   );
 }
