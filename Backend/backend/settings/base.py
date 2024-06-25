@@ -13,6 +13,10 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 import os
 from pathlib import Path
 
+SUPABASE_URL = 'https://vztlaqszhhqpfunwzyhd.supabase.co'
+SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ6dGxhcXN6aGhxcGZ1bnd6eWhkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTgzMTAwNDQsImV4cCI6MjAzMzg4NjA0NH0.Onq1xYc2GIddDQedNEVmoyCwHfLohViHMR2M8mLiJ2k'
+SUPABASE_BUCKET_NAME = 'pipeline'
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
